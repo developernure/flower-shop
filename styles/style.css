@@ -7,7 +7,7 @@
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 25px;
   color: rgba(39, 39, 39, 0.6);
 }
 button {
@@ -43,7 +43,7 @@ button:hover {
 }
 
 /* header styles start here */
-header {
+header, #hot-deal {
   background-color: rgba(229, 84, 115, 0.1);
 }
 
@@ -110,7 +110,7 @@ header {
 .sub-container {
   width: 75%;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 128px auto;
   
 }
 .sub-container .sub-featured{
@@ -123,4 +123,24 @@ header {
 .sub-container .sub-featured .feature-img{
   display: flex;
   justify-content: center;
+}
+/* hot deal styles starts here */
+.hot-deal-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+#hot-deal .hot-deal-text{
+  max-width: 445px;
+  text-align: center;
+}
+#hot-deal .off{
+  color: #e55473;
+}
+#hot-deal .hot-deal-img{
+  max-width: 318px;
+}
+#hot-deal .hot-deal-text *{
+  margin-bottom: 15px;
 }
