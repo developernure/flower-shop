@@ -144,3 +144,15 @@ header, #hot-deal {
 #hot-deal .hot-deal-text *{
   margin-bottom: 15px;
 }
+/* instagram styles starts here */
+#instagram{
+  padding: 100px 0;
+}
+.instagram-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.instagram-container img{
+  width: 100%;
+}
